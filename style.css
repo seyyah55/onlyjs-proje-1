@@ -1,0 +1,270 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@500;600;700&family=Rubik:wght@400;700&family=Space+Grotesk:wght@300;500;600;700&display=swap'); */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 100px;
+    background-color: #2c3e50;
+}
+
+.navbar-brand {
+    margin-left: 100px;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.collapse {
+    margin-right: 150px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #1abc9c;
+}
+
+.container-fluid-1 {
+    width: 100%;
+    height: 110vh;
+    background-color: #1abc9c;
+}
+
+.rounded {
+    width: 240px;
+    padding-top: 250px;
+}
+
+.text-avatar {
+    margin-top: 30px;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+.text-paragragh {
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+.star {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.cizgi {
+    width: 100px;
+    height:4px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.icon {
+    color: #fff;
+    font-size:xx-large;
+}
+
+.header-pictures{
+    margin-top: 70px;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.row {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fluid {
+    border-radius: 10px;
+}
+
+.cizgi-2 {
+    width: 100px;
+    height:4px;
+    border-radius: 10px;
+    background-color: #2c3e50;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.icon-2 {
+    color:#2c3e50 ;
+    font-size:xx-large;
+}
+
+.container-fluid-2 {
+    height: 550px;
+    background-color: #1abc9c;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.text-about {
+    margin-top: 40px;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+.text-div {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.first-text {
+    width: 356px;
+    height: 180px;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.second-text {
+    width: 356px;
+    height: 150px;
+    color: #fff;
+    font-size: 1.3rem;
+    margin-left: 25px;
+}
+
+.free-download {
+   text-align: center;
+   margin-top: 70px;
+   margin-bottom: 70px;
+}
+
+.down-load {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 1rem 1.75rem;
+}
+
+.down-load:hover {
+    color: #000;
+    background: #fff;
+}
+
+.fa-download{
+    margin-right: 10px;
+}
+
+.container-2 {
+    height: 100vh;
+    background-color: #fff;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.text-contact {
+    margin-top: 40px;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.form-floating {
+    height: 5.5rem;
+    line-height: 1.25rem;
+    font-size: 1.5rem;
+    color:#6c757d ;
+}
+
+.form-control {
+    font-size: 1.5rem;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    border-width: 1px ;
+    padding: 1.5rem 0;
+}
+
+.btn {
+    margin-top: 1.25rem;
+    color: #fff;
+    background-color: #1abc9c;
+    opacity: 0.65;
+    border: 2px solid #1abc9c;
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #1abc9c;
+    opacity: 0.65;
+    border: 2px solid #1abc9c;
+}
+
+.footer {
+    margin-top: 60px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    background: #2c3e50;
+}
+
+.h4-text {
+    color: #fff;
+    font-size:1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+.p-text {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.a-text {
+    color: #1abc9c;
+    font-weight: 400;
+}
+
+.a-text:hover {
+    color: #1abc9c;
+    opacity: 0.5;
+}
+
+.footer-bottom {
+    width: 100%;
+    height: 72px;
+    background-color:#1a252f ;
+    color: #fff;
+}
+
+.p-footer {
+    text-align: center;
+    line-height: 72px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
